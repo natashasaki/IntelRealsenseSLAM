@@ -1,0 +1,27 @@
+[33m[1mCMake Warning[0m at /home/bosch2/catkin_ws/src/realsense-ros/rtabmap_ros/CMakeLists.txt:28 (find_package):
+  By not providing "Findapriltag_ros.cmake" in CMAKE_MODULE_PATH this project
+  has asked CMake to find a package configuration file provided by
+  "apriltag_ros", but CMake did not find one.
+
+  Could not find a package configuration file provided by "apriltag_ros" with
+  any of the following names:
+
+    apriltag_rosConfig.cmake
+    apriltag_ros-config.cmake
+
+  Add the installation prefix of "apriltag_ros" to CMAKE_PREFIX_PATH or set
+  "apriltag_ros_DIR" to a directory containing one of the above files.  If
+  "apriltag_ros" provides a separate development package or SDK, be sure it
+  has been installed.
+
+
+[31m[1mCMake Error[0m at /home/bosch2/catkin_ws/src/realsense-ros/rtabmap_ros/CMakeLists.txt:34 (find_package):
+  Could not find a configuration file for package "RTABMap" that is
+  compatible with requested version "0.20.2".
+
+  The following configuration files were considered but not accepted:
+
+    /opt/ros/melodic/lib/rtabmap-0.20/RTABMapConfig.cmake, version: 0.20.0
+
+
+

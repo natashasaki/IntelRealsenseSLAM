@@ -1,0 +1,4 @@
+<launch>
+  <include file="$(find realsense2_camera)/launch/rs_d400_and_t265.launch"/>
+  <include file="$(find occupancy)/launch/occupancy.launch"/>
+</launch>
